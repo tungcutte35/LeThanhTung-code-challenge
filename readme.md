@@ -15,9 +15,10 @@ npm -v
 ```
 
 git clone <https://github.com/tungcutte35/LeThanhTung-code-challenge>
-cd <LeThanhTung-code-challenge>
+
 
 ```
+cd LeThanhTung-code-challenge
 npm install
 npm run dev
 ```
