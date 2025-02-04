@@ -1,6 +1,4 @@
-# Project Title
 
-A brief description of your project and its purpose.
 
 ## Prerequisites
 
@@ -18,8 +16,9 @@ npm -v
 
 git clone <https://github.com/tungcutte35/LeThanhTung-code-challenge>
 cd <LeThanhTung-code-challenge>
-npm install
+```npm install
 npm run dev
+```
 
 # Solutions for the Problems
 
