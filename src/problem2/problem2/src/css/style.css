@@ -1,0 +1,118 @@
+/* General Styling for Swap Form */
+.swap-form-container {
+  width: 400px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.swap-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.swap-input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.swap-token-select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.amount-input {
+  margin-top: 8px;
+  width: 93%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+.converted-amount {
+  width: 93%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.swap-button {
+  background-color: #3e3e3e;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 20%;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.swap-button:hover {
+  background-color: #555;
+}
+
+.confirm-swap-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.confirm-swap-btn:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.confirm-swap-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 480px) {
+  .swap-form-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .swap-form-container h2 {
+    font-size: 20px;
+  }
+
+  .swap-button {
+    font-size: 16px;
+  }
+
+  .confirm-swap-btn {
+    font-size: 14px;
+  }
+}
